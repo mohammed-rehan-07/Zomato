@@ -1,0 +1,568 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+header {
+  background: url(HeaderBg.avif);
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  /* background-color: red; */
+  margin: auto;
+  width: 80%;
+  height: 40px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#left span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+#right ul {
+  color: #fff;
+  display: flex;
+  gap: 50px;
+  font-size: 18px;
+}
+#main {
+  /* border: 2px solid aqua; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: calc(60vh-72px);
+}
+#main #logo img {
+  width: 350px;
+  margin-top: 30px;
+}
+#main #lagline h1 {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 400;
+  margin-top: 30px;
+}
+#seachcontainer {
+  background-color: #fff;
+  padding: 15px 25px;
+  width: 50%;
+  border-radius: 12px;
+  display: flex;
+  margin-top: 30px;
+}
+#city {
+  border-right: 2px solid #cfcfcf;
+  padding-right: 15px;
+  margin-right: 20px;
+}
+#city input {
+  border: none;
+  margin-left: 5px;
+}
+
+span {
+  padding-left: 15px;
+  color: #828282;
+  /* font-size: 18px; */
+}
+
+#main #logo {
+  color: #fff;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+#services {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto 60px;
+  /* border:5px solid red; */
+  display: flex;
+  gap: 25px;
+  margin-top: 30px;
+  height: 240px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+#option {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  border-radius: 12px;
+}
+
+#option #imge {
+  height: 100%;
+  width: 100%;
+}
+#option #imge img {
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  object-position: bottom center;
+}
+#info {
+  position: absolute;
+  bottom: 0;
+  background-color: #fff;
+  width: 100%;
+  border: 2px solid #eee;
+  border-radius: 0 0 12px 12px;
+  padding: 10px 20px 16px 20px;
+  line-height: 30px;
+}
+#info p {
+  font-size: 16px;
+  color: #4f4f4f;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#info h2 {
+  font-family: 20px;
+  color: #363636;
+  font-weight: 500;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+#collection {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto 60px;
+  font-family: "Raleway", sans-serif;
+}
+#collection h2 {
+  font-size: 36px;
+  color: #1c1c1c;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+#col-discription {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+#col-discription p {
+  font-size: 18px;
+  color: #1c1c1c;
+}
+#col-discription a {
+  color: #ff7a8b;
+  font-size: 16px;
+  text-decoration: none;
+}
+#col-list {
+  /* padding: 10px; */
+  margin-top: 30px;
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 320px;
+  display: flex;
+  overflow: hidden;
+  gap: 30px;
+}
+#list-item {
+  height: 100%;
+  width: 100%;
+  max-width: 25%;
+  position: relative;
+}
+#list-imge {
+  height: 100%;
+  width: 100%;
+}
+#list-imge img {
+  object-fit: cover;
+  border-radius: 12px;
+  /* gap: 10px; */
+  height: 100%;
+  width: 100%;
+}
+#list-content {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.05) 50%,
+    rgba(0, 0, 0, 0.05) 85%
+  );
+  border-radius: 7px;
+}
+#content-info {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  line-height: 20px;
+  padding: 0 16px 10px 16px;
+}
+#content-info p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+#content-info a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  text-decoration: none;
+}
+#location {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto 60px;
+}
+#location-title {
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+#location-title p {
+  font-size: 36px;
+  color: #363636;
+}
+#place-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+#place {
+  border: 1px solid #ebebeb;
+  padding: 12px 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 32%;
+  box-shadow: #1c1c1c opx 1.4px 2.8px;
+}
+#place-name h5 {
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #1c1c1c;
+  font-weight: 500;
+}
+#place-name p {
+  font-size: 16px;
+  color: #363636;
+  font-weight: 400;
+}
+#see-more {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+}
+#see-more p {
+  padding-right: 7px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+}
+#app-section {
+  background-color: #fffbf7;
+}
+#app-container {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: 450px;
+  max-width: 950px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+#mobile-imge {
+  height: 100%;
+  width: 50%;
+  /* border: 2px solid blue; */
+}
+#mobile-imge img {
+  height: 100%;
+}
+#app-title h2 {
+  font-size: 44px;
+  color: #1c1c1c;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+#app-title p {
+  font-size: 16px;
+  color: #363636;
+  font-weight: 400;
+  margin-bottom: 25px;
+  line-height: 32px;
+}
+#radio-container {
+  /* border: 2px solid red; */
+  width: 50%;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  /* padding: 10px; */
+  display: flex;
+}
+input[type="radio"] {
+  accent-color: #ef4f5f;
+  width: 16px;
+  height: 16px;
+  margin-right: 7px;
+}
+#email-input-container {
+  display: flex;
+  /* border: 1px solid black; */
+  gap: 10px;
+  margin-bottom: 25px;
+}
+#email-input-container #email-input {
+  padding: 12px 15px;
+  width: 100%;
+  border-radius: 6px;
+  font-size: 18px;
+  border: 1px solid rgb(207, 207, 207);
+  outline: none;
+}
+#email-input-container button {
+  width: 175px;
+  padding: 7px;
+  background-color: #ef4f5f;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 16px;
+}
+
+#appinfo p {
+  font-size: 14px;
+  line-height: 21px;
+  color: #9c9c9c;
+  margin-bottom: 15px;
+}
+#app-imge {
+  display: flex;
+  /* border: 2px solid black; */
+  margin-bottom: 5px;
+  /* height: 40px; */
+}
+#app-imge img {
+  width: 137px;
+  /* margin-left: 10px; */
+  padding: 0px 20px 0px 0px;
+}
+footer {
+  background: #f8f8f8;
+  /* border: 1px solid red; */
+  height: 600px;
+  /* width: 100%; */
+  margin: auto;
+  /* margin-left: 100px; */
+  /* margin: 0 auto 60px; */
+  width: 100%;
+  /* max-width: 1100px; */
+  margin: 0 auto 60px;
+}
+.zomato {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto 60px;
+}
+#zomato-img img {
+  /* border: 2px solid red; */
+  width: 80%;
+  /* margin-top: 5px; */
+  height: 100%;
+}
+#zomato-logo {
+  background: #f8f8f8;
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto 60px;
+}
+#main-india {
+  /* border: 1px solid grey; */
+  display: flex;
+  /* justify-content: space-between; */
+  /* margin-left: 1000px; */
+}
+#india img {
+  width: 30px;
+  height: 22px;
+  padding: 5px;
+  margin: 5px auto;
+  /* border: 2px solid red; */
+  /* margin: 0; */
+  /* padding: 8px; */
+  /* border-radius: none; */
+}
+#india img,
+p,
+i {
+  padding: 4px;
+}
+#india p,
+i {
+  font-size: 18px;
+  /* padding: 5px; */
+  color: #1c1c1c;
+}
+#india {
+  height: 38px;
+  display: flex;
+  border: 1px solid #b5b5b5;
+  border-radius: 5px;
+  gap: 4px;
+  margin-right: 20px;
+}
+
+#india i {
+  font-size: 14px;
+  /* padding-bottom: 5px; */
+}
+#glob {
+  border: 1px solid #b5b5b5;
+  border-radius: 5px;
+  display: flex;
+  height: 38px;
+}
+#glob i {
+  font-size: 14px;
+  margin: 5px;
+}
+#glob p {
+  padding: 5px;
+}
+/* #india p {
+    font-size: 18px;
+    padding: 5px;
+    color: #1c1c1c;
+  } */
+
+#footer-container {
+  background: #f8f8f8;
+  /* border: 2px solid red; */
+  /* height: 100%; */
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto 60px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  background: #f8f8f8;
+
+  /* border: 2px solid black; */
+  position: relative;
+  /* margin-bottom: 20px; */
+  /* margin-top: 100px; */
+}
+
+.footer-column h3 {
+  font-size: 14px;
+  letter-spacing: 2px;
+  /* margin-left: 20px; */
+  margin-bottom: 10px;
+
+  /* font-weight: 500; */
+}
+
+.footer-column ul {
+  list-style: none;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1c1c1c;
+}
+
+.footer-column ul li {
+  margin: 5px 0;
+}
+
+.footer-column ul li {
+  text-decoration: none;
+  color: #333;
+}
+
+.social-links img {
+  height: 40px;
+  margin: 5px 5px 0 0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  text-align: center;
+  color: #777;
+}
+.footer-column img {
+  /* border: 2px solid red; */
+  display: flex;
+  margin-top: 20px;
+}
+
+/* ............................................... */
+
+#Explore-options {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto 60px;
+  /* border: 2px solid red; */
+  /* background-color: #fff; */
+}
+#popular {
+  margin-top: 18px;
+}
+#Explore-options p {
+  font-size: 30px;
+  line-height: 40px;
+  color: #363636;
+  font-weight: 500;
+  margin-top: 50px;
+}
+#name-places {
+  border: 1px solid #e8e8e8;
+  background-color: #fff;
+  border-radius: 7px;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  margin: 0px 0px 22px 0px;
+  /* gap: 10px; */
+}
+#names span {
+  /* background-color: #fff; */
+  font-size: 20px;
+  line-height: 26px;
+  color: #1c1c1c;
+  /* padding: 10px; */
+}
